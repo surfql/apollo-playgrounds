@@ -1,7 +1,6 @@
 const { ApolloServer } = require("@apollo/server");
 const { startStandaloneServer } = require("@apollo/server/standalone");
 const { GraphQLScalarType, Kind } = require("graphql");
-const { data } = require("./data");
 const { User, SurfSpot, Surfboard, SurfingCompetition, Surfer, SurfSpotReview, SurfboardReview } = require("./database");
 
 const typeDefs = `#graphql
